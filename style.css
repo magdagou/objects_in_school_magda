@@ -1,0 +1,181 @@
+h1{
+    font-size: 50px;
+    text-shadow: 0 2.5px #999; ;
+}
+
+body {
+    text-align: center;
+    background-color: lightsteelblue;
+    font-family: "Andale Mono";
+    margin: 30px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+select{
+    font-family: Avenir;
+    color: lightblue;
+    font-size: 15px;
+}
+
+input{
+    text-align: center;
+}
+
+table {
+    size: 15px;
+    width: 50%;
+    font-size: 15px;
+    border-top: 1px solid white ;
+    border: 1px solid white;
+}
+
+#listButton{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#listButton:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#addStudent{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#addStudent:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#addTeacher{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#addTeacher:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#addSection{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#addSection:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#AddStudentToSection{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#AddStudentToSection:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#AddTeacherToSection{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#AddTeacherToSection:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#removeStudent{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#removeStudent:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#removeTeacher{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#removeTeacher:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#removeSection{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#removeSection:hover {
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}
+
+#listItemsInASection{
+    background-color: white;
+    color: lightslategray;
+    border:none;
+    box-shadow: 0 2px #999;
+}
+
+#listItemsInASection:hover{
+    background-color: lightsteelblue;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    box-shadow:none;
+}

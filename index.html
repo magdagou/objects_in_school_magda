@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School System</title>
+    <script src="objects.js"></script>
+    <script src="data.js"></script>
+    <script src="actions.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body onload = "setUp()">
+<br>
+
+<h1>SCHOOL MANAGEMENT</h1>
+
+<br>
+<br>
+
+<select id="categories" style="box-shadow: 0 2px #999; width: 150px; height: 30px; border:none; background: white; color:lightslategray; text-align-all: center; font-family: 'Andale Mono'">
+    <option value="0">SELECT</option>
+    <option value="1">STUDENTS</option>
+    <option value="2">TEACHERS</option>
+    <option value="3">SECTIONS</option>
+</select>
+
+<br>
+<br>
+<br>
+
+<button id="listButton" onclick="listItems()" type="button" style="width: 150px; height: 30px">LIST</button>
+
+<br>
+<br>
+
+<div id="html"></div>
+
+<br>
+<br>
+
+<input id="StudentFirstName" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none; color:lightslategray" placeholder="first name" minlength="1" maxlength="20">
+<input id="StudentLastName" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none; color:lightslategray" placeholder="last name" minlength="1" maxlength="30">
+<input type="number" id="StudentGrade" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none; color:lightslategray" placeholder="grade" min="9" max="12">
+
+<button id="addStudent" onclick="addStudent()" type="button" style="width: 150px; height: 30px">Add Student</button>
+
+<br>
+<br>
+
+<input id="TeacherFirstName" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none;  color:lightslategray" placeholder="first name" minlength="1" maxlength="20">
+<input id="TeacherLastName" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none;  color:lightslategray" placeholder="last name" minlength="1" maxlength="30">
+<input id="TeacherSubject" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none;  color:lightslategray" placeholder="subject">
+
+<button id="addTeacher" onclick="addTeacher()" type="button" style="width: 150px; height: 30px">Add Teacher</button>
+
+<br>
+<br>
+
+<input id="SectionName" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none; color:lightslategray" placeholder="section name" minlength="1" maxlength="15">
+<input id="SectionCount" style="box-shadow: 0 2px #999; width: 200px; height: 30px; border:none; color:lightslategray" placeholder="section count">
+
+<button id="addSection" onclick="addSection()" type="button" style="width: 150px; height: 30px">Add Section</button>
+
+<br>
+<br>
+
+<div id="add"></div>
+
+<br>
+<br>
+<br>
+
+<select id="studentList" style="box-shadow: 0 2px #999; width: 170px; height: 30px; border:none; background:white; color:lightslategray; text-align-all: center; font-family: 'Andale Mono'">
+    <option value="0">SELECT STUDENT</option>
+</select>
+
+<select id="sectionList" style="box-shadow: 0 2px #999; width: 170px; height: 30px; border:none; background:white; color:lightslategray; text-align-all: center; font-family: 'Andale Mono'">
+    <option value="0">SELECT SECTION</option>
+</select>
+
+<button id="AddStudentToSection" onclick="AddStudentToSection()" type="button" style="width: 250px; height: 30px">Add Student to Section</button>
+
+<br>
+<br>
+
+<div id="StudentSection"></div>
+
+<br>
+
+<select id = "itemsList" style="box-shadow: 0 2px #999; width: 170px; height: 30px; border:none; background:white; color:lightslategray; text-align-all: center; font-family: 'Andale Mono'">
+    <option value="0">SELECT ITEM</option>
+</select>
+
+<button id = "listItemsInASection" onclick = "ListItemsInASection()" type="button" style="width: 150px; height: 30px">List Selection</button>
+
+<br>
+<br>
+
+<div id="listItems"></div>
+
+</body>
+</html>
